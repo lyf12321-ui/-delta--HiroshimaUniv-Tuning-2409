@@ -21,7 +21,7 @@ const Login: NextPage = () => {
       setUserInfo(data);
       router.push("/");
     } catch {
-      setError("ユーザ名もしくはパスワードが違います");
+      setError("ユーザ名もしくパスワードが違います");
     }
   };
 
